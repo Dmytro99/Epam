@@ -1,0 +1,25 @@
+[TRACE] 2018-03-28 14:52:23.105 [main] MainLog - This is a trace message
+[DEBUG] 2018-03-28 14:52:23.107 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 14:52:23.107 [main] MainLog - This is an info message
+[TRACE] 2018-03-28 14:52:39.918 [main] MainLog - This is a trace message
+[DEBUG] 2018-03-28 14:52:39.923 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 14:52:39.923 [main] MainLog - This is an info message
+[TRACE] 2018-03-28 14:53:19.357 [main] MainLog - This is a trace message
+[DEBUG] 2018-03-28 14:53:19.360 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 14:53:19.360 [main] MainLog - This is an info message
+[TRACE] 2018-03-28 14:55:25.848 [main] MainLog - This is a trace message
+[DEBUG] 2018-03-28 14:55:25.850 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 14:55:25.850 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 14:57:26.108 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 14:57:26.118 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 14:57:26.118 [main] MainLog - This is a fatal message
+[WARN ] 2018-03-28 14:57:38.502 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 14:57:38.502 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 14:57:38.502 [main] MainLog - This is a fatal message
+[TRACE] 2018-03-28 14:57:50.964 [main] MainLog - This is a trace message
+[DEBUG] 2018-03-28 14:57:50.964 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 14:57:50.964 [main] MainLog - This is an info message
+[TRACE] 2018-03-28 14:58:03.082 [main] MainLog - This is a trace message
+[DEBUG] 2018-03-28 14:58:03.082 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 14:58:03.082 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 15:38:35.132 [main] MainLog - This is a warn message

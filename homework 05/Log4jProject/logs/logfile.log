@@ -1,0 +1,67 @@
+[INFO ] 2018-03-27 22:14:57.027 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 22:14:57.029 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 22:14:57.029 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 22:14:57.029 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 22:17:10.651 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 22:17:10.653 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 22:17:10.654 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 22:17:10.654 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 22:18:49.790 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 22:18:49.792 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 22:18:49.793 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 22:18:49.793 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 22:19:15.932 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 22:19:15.934 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 22:19:15.934 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 22:19:15.935 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 22:20:49.359 [main] MainLog - This is an info message
+[WARN ] 2018-03-27 22:20:49.360 [main] MainLog - This is a warn message
+[ERROR] 2018-03-27 22:20:49.360 [main] MainLog - This is an error message
+[FATAL] 2018-03-27 22:20:49.360 [main] MainLog - This is a fatal message
+[INFO ] 2018-03-27 22:23:35.382 [main] MainLog - This is an info message
+[WARN ] 2018-03-27 22:23:35.382 [main] MainLog - This is a warn message
+[ERROR] 2018-03-27 22:23:35.382 [main] MainLog - This is an error message
+[FATAL] 2018-03-27 22:23:35.382 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-27 22:53:34.339 [main] MainLog - This is an error message
+[FATAL] 2018-03-27 22:53:34.352 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-27 22:54:10.981 [main] MainLog - This is an error message
+[FATAL] 2018-03-27 22:54:10.982 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-27 22:54:33.067 [main] MainLog - This is an error message
+[FATAL] 2018-03-27 22:54:33.068 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-27 23:54:10.356 [main] MainLog - This is an error message
+[FATAL] 2018-03-27 23:54:10.364 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:00:54.762 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:00:54.764 [main] MainLog - This is a fatal message
+[DEBUG] 2018-03-28 00:01:12.210 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 00:01:12.214 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 00:01:12.214 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 00:01:12.214 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:01:12.214 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:20:16.009 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:20:16.039 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:20:33.036 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:20:33.036 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:20:46.477 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:20:46.514 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:21:09.937 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:21:09.938 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:22:25.172 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:22:25.173 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:22:44.640 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:22:44.640 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:25:20.291 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:25:20.291 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:29:52.863 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:29:52.864 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:30:24.638 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:30:24.638 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:30:45.185 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:30:45.185 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:30:58.535 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:30:58.558 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:38:41.218 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:38:41.218 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:39:35.519 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:39:35.519 [main] MainLog - This is a fatal message
+[ERROR] 2018-03-28 00:40:11.046 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:40:11.047 [main] MainLog - This is a fatal message

@@ -1,0 +1,90 @@
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a fatal message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a warn message
+This is an error message
+This is a fatal message
+This is a debug message
+This is an info message
+This is a warn message
+This is an error message
+This is a fatal message
+[DEBUG] 2018-03-28 01:10:13.155 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 01:10:13.158 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 01:10:13.159 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 01:10:13.159 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 01:10:13.159 [main] MainLog - This is a fatal message
+[DEBUG] 2018-03-28 01:10:56.871 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 01:10:56.875 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 01:10:56.875 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 01:10:56.875 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 01:10:56.875 [main] MainLog - This is a fatal message
+[DEBUG] 2018-03-28 01:12:39.473 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 01:12:39.478 [main] MainLog - This is an info message
+[DEBUG] 2018-03-28 01:12:53.611 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 01:12:53.614 [main] MainLog - This is an info message
+[DEBUG] 2018-03-28 01:13:07.338 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 01:13:07.340 [main] MainLog - This is an info message
+[DEBUG] 2018-03-28 01:13:18.985 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 01:13:18.988 [main] MainLog - This is an info message
+[DEBUG] 2018-03-28 02:06:38.117 [main] MainLog - This is a debug message
+[DEBUG] 2018-03-28 02:07:07.165 [main] MainLog - This is a debug message

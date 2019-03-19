@@ -1,0 +1,10 @@
+[DEBUG] 2018-03-28 00:30:24.616 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 00:30:24.637 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 00:30:24.638 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 00:30:24.638 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:30:24.638 [main] MainLog - This is a fatal message
+[DEBUG] 2018-03-28 00:30:58.530 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 00:30:58.534 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 00:30:58.535 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 00:30:58.535 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:30:58.558 [main] MainLog - This is a fatal message

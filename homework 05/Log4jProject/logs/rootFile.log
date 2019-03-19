@@ -1,0 +1,163 @@
+[DEBUG] 2018-03-27 15:09:08.767 TestLogg:11 - This is a debug message 
+[INFO ] 2018-03-27 15:09:08.787 TestLogg:12 - This is an info message 
+[WARN ] 2018-03-27 15:09:08.787 TestLogg:13 - This is a warn message 
+[ERROR] 2018-03-27 15:09:08.787 TestLogg:14 - This is an error message 
+[FATAL] 2018-03-27 15:09:08.787 TestLogg:15 - This is a fatal message 
+[DEBUG] 2018-03-27 15:10:22.149 TestLogg:11 - This is a debug message 
+[INFO ] 2018-03-27 15:10:22.149 TestLogg:12 - This is an info message 
+[WARN ] 2018-03-27 15:10:22.149 TestLogg:13 - This is a warn message 
+[ERROR] 2018-03-27 15:10:22.149 TestLogg:14 - This is an error message 
+[FATAL] 2018-03-27 15:10:22.149 TestLogg:15 - This is a fatal message 
+[DEBUG] 2018-03-27 15:10:36.788 TestLogg:11 - This is a debug message 
+[INFO ] 2018-03-27 15:10:37.117 TestLogg:12 - This is an info message 
+[WARN ] 2018-03-27 15:10:37.118 TestLogg:13 - This is a warn message 
+[ERROR] 2018-03-27 15:10:37.118 TestLogg:14 - This is an error message 
+[FATAL] 2018-03-27 15:10:37.119 TestLogg:15 - This is a fatal message 
+[DEBUG] 2018-03-27 15:17:52.135 TestLogg:11 - This is a debug message 
+[INFO ] 2018-03-27 15:17:52.180 TestLogg:12 - This is an info message 
+[WARN ] 2018-03-27 15:17:52.180 TestLogg:13 - This is a warn message 
+[ERROR] 2018-03-27 15:17:52.180 TestLogg:14 - This is an error message 
+[FATAL] 2018-03-27 15:17:52.181 TestLogg:15 - This is a fatal message 
+[DEBUG] 2018-03-27 16:13:00.753 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:13:00.786 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:13:00.786 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:13:00.787 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:13:00.787 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:14:55.462 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:14:55.467 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:14:55.468 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:14:55.469 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:14:55.470 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:14:55.470 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:17:20.825 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:17:20.827 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:17:20.828 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:17:20.828 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:17:20.828 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:17:20.828 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:18:26.305 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:18:26.315 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:18:26.315 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:18:26.316 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:18:26.316 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:18:26.316 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:19:28.772 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:19:28.776 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:19:28.776 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:19:28.776 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:19:28.777 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:19:28.777 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:24:05.962 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:24:05.966 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:24:05.966 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:24:05.966 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:24:05.966 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:24:05.966 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:27:41.593 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:27:41.647 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:27:41.648 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:27:41.648 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:27:41.649 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:27:41.649 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 16:28:27.981 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 16:28:27.984 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 16:28:27.984 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 16:28:27.986 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 16:28:27.987 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 16:28:27.987 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:39:24.412 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 19:39:24.459 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 19:39:24.460 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:39:24.460 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:39:24.461 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:39:24.462 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:40:44.507 Beer:10 - Info about  in the store 
+[INFO ] 2018-03-27 19:40:44.511 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:40:44.511 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:40:44.512 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:40:44.512 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:40:51.208 Beer:10 - Info about  in the store 
+[INFO ] 2018-03-27 19:40:51.212 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:40:51.212 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:40:51.212 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:40:51.213 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:41:13.877 Beer:10 - Info about  in the store 
+[INFO ] 2018-03-27 19:41:13.881 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:41:13.881 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:41:13.881 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:41:13.882 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:42:13.036 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 19:42:13.057 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 19:42:13.057 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:42:13.058 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:42:13.058 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:42:13.058 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:45:04.198 Beer:10 - Info about  in the store 
+[INFO ] 2018-03-27 19:45:04.245 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:45:04.246 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:45:04.247 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:45:04.248 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:45:57.099 Beer:10 - Info about  in the store 
+[INFO ] 2018-03-27 19:45:57.104 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:45:57.104 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:45:57.105 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:45:57.105 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:52:17.989 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 19:52:18.017 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 19:52:18.018 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:52:18.019 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:52:18.019 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:52:18.020 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 19:56:36.592 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 19:56:36.614 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 19:56:36.615 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 19:56:36.615 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 19:56:36.615 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 19:56:36.615 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 20:02:22.991 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 20:02:22.995 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 20:02:22.995 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 20:02:22.995 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 20:02:22.996 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 20:02:22.996 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 20:25:13.168 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 20:25:13.193 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 20:25:13.193 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 20:25:13.193 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 20:25:13.194 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 20:25:13.195 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 20:29:12.017 Beer:10 - Info about  in the store 
+[DEBUG] 2018-03-27 20:29:13.124 MainLog:15 - This is a debug message 
+[INFO ] 2018-03-27 20:29:13.124 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 20:29:13.125 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 20:29:13.125 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 20:29:13.125 MainLog:19 - This is a fatal message 
+[INFO ] 2018-03-27 20:35:10.549 Beer:10 - Info about  in the store 
+[INFO ] 2018-03-27 20:35:10.553 MainLog:16 - This is an info message 
+[WARN ] 2018-03-27 20:35:10.553 MainLog:17 - This is a warn message 
+[ERROR] 2018-03-27 20:35:10.554 MainLog:18 - This is an error message 
+[FATAL] 2018-03-27 20:35:10.554 MainLog:19 - This is a fatal message 
+[DEBUG] 2018-03-27 21:30:43.855 MainLog:12 - This is a debug message 
+[INFO ] 2018-03-27 21:30:43.903 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 21:30:43.903 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 21:30:43.903 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 21:30:43.904 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 21:32:58.116 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 21:32:58.120 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 21:32:58.120 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 21:32:58.121 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 21:34:34.564 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 21:34:34.564 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 21:34:34.574 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 21:34:34.574 MainLog:16 - This is a fatal message 
+[INFO ] 2018-03-27 21:36:41.092 MainLog:13 - This is an info message 
+[WARN ] 2018-03-27 21:36:41.094 MainLog:14 - This is a warn message 
+[ERROR] 2018-03-27 21:36:41.094 MainLog:15 - This is an error message 
+[FATAL] 2018-03-27 21:36:41.095 MainLog:16 - This is a fatal message 
+[ERROR] 2018-03-28 00:08:31.389 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:08:31.409 [main] MainLog - This is a fatal message
+[DEBUG] 2018-03-28 00:09:01.916 [main] MainLog - This is a debug message
+[INFO ] 2018-03-28 00:09:01.918 [main] MainLog - This is an info message
+[WARN ] 2018-03-28 00:09:01.919 [main] MainLog - This is a warn message
+[ERROR] 2018-03-28 00:09:01.919 [main] MainLog - This is an error message
+[FATAL] 2018-03-28 00:09:01.919 [main] MainLog - This is a fatal message

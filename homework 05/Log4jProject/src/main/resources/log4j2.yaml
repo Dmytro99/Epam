@@ -1,0 +1,451 @@
+                           #  SECOND TASK
+#Configutation:
+#  name: Default
+#  Properties:
+#    Property:
+#      name: log-path
+#      value: "logs"
+#  Appenders:
+#    Console:
+#      name: Console_Appender
+#      target: SYSTEM_OUT
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#    File:
+#      name: File_Appender
+#      fileName: ${log-path}/logfile.log
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#  Loggers:
+#      Root:
+#        level: debug
+#        AppenderRef:
+#          - ref: Console_Appender
+#      Logger:
+#        - name: com.epam.logg
+#          level: debug
+#          AppenderRef:
+#            - ref: File_Appender
+#              level: info
+                                     #  SECOND TASK
+
+
+
+
+                                     #  THIRD TASK
+
+
+                            #########################################################
+                           #file will be overwritten after reaching the size of 1 MB;#
+                           ##########################################################
+#Configutation:
+#  name: Default
+#  Properties:
+#    Property:
+#      name: log-path
+#      value: "logs"
+#  Appenders:
+#    Console:
+#      name: Console_Appender
+#      target: SYSTEM_OUT
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#    File:
+#      name: File_Appender
+#      fileName: ${log-path}/logfile.log
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#    RollingFile:
+#      - name: RollingFile_Appender
+#        fileName: ${log-path}/rollingfile.log
+#        filePattern: "logs/archive/rollingfile.log.%d{yyyy-MM-dd-hh-mm}.gz"
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#        Policies:
+#          SizeBasedTriggeringPolicy:
+#            size: 1 MB
+#
+#  Loggers:
+#      Root:
+#        level: debug
+#        AppenderRef:
+#          - ref: Console_Appender
+#      Logger:
+#        - name: com.epam.logg
+#          additivity: false
+#          level: debug
+#          AppenderRef:
+#            - ref: Console_Appender
+#              level: info
+#            - ref: File_Appender
+#              level: error
+#            - ref: RollingFile_Appender
+#              level: debug
+
+
+
+
+
+
+
+
+                            ################################
+                           #file will not be overwritten #
+                           #################################
+
+#Configutation:
+#  name: Default
+#  Properties:
+#    Property:
+#      name: log-path
+#      value: "logs"
+#  Appenders:
+#    Console:
+#      name: Console_Appender
+#      target: SYSTEM_OUT
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#    File:
+#      name: File_Appender
+#      fileName: ${log-path}/logfile.log
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#    File:
+#      name: rootLogFile
+#      fileName: ${log-path}/rootFile.log
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#
+#
+#  Loggers:
+#      Root:
+#        level: debug
+#        AppenderRef:
+#          - ref: Console_Appender
+#      Logger:
+#        - name: com.epam.logg
+#          additivity: false
+#          level: debug
+#          AppenderRef:
+#            - ref: Console_Appender
+#              level: info
+#            - ref: File_Appender
+#              level: error
+#            - ref: rootLogFile
+#              level: debug
+
+
+
+
+
+
+                            ##########################################
+                           #every day log will be written arhive file#
+                           ###########################################
+
+
+
+#  Configutation:
+#    name: Default
+#    Properties:
+#      Property:
+#        name: log-path
+#        value: "logs"
+#    Appenders:
+#      Console:
+#        name: Console_Appender
+#        target: SYSTEM_OUT
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      File:
+#        name: File_Appender
+#        fileName: ${log-path}/logfile.log
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      RollingFile:
+#        - name: rollingFile3
+#          fileName: ${log-path}/rollingfile.log
+#          filePattern: "logs/archive/rollingFile3.log.%d{yyyy-MM-dd-hh-mm}.gz"
+#          PatternLayout:
+#            pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#          Policies:
+#            TimeBasedTriggeringPolicy:
+#              interval: 1
+#              modulate: true
+#
+#    Loggers:
+#        Root:
+#          level: debug
+#          AppenderRef:
+#            - ref: Console_Appender
+#        Logger:
+#          - name: com.epam.logg
+#            additivity: false
+#            level: debug
+#            AppenderRef:
+#              - ref: Console_Appender
+#                level: info
+#              - ref: File_Appender
+#                level: error
+#              - ref: rollingFile3
+#                level: debug
+
+
+
+
+
+
+
+
+
+
+                            ####################################
+                           #file will be overwritten every day;#
+                           #####################################
+
+
+
+
+#  Configutation:
+#    name: Default
+#    Properties:
+#      Property:
+#        name: log-path
+#        value: "logs"
+#    Appenders:
+#      Console:
+#        name: Console_Appender
+#        target: SYSTEM_OUT
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      File:
+#        name: File_Appender
+#        fileName: ${log-path}/logfile.log
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      RollingFile:
+#        - name: rollingFile4
+#          fileName: ${log-path}/rollingFile4.log
+#          filePattern: "logs/archive/rollingFile4.log.%d{yyyy-MM-dd-hh-mm}.gz"
+#          PatternLayout:
+#            pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#          Policies:
+#            CronTriggeringPolicy:
+#                schedule: "0 0/5 14 * * ?"
+#                evaluateOnStartup: true
+#            DefaultRolloverStrategy:
+#             max: 1
+#
+#    Loggers:
+#        Root:
+#          level: debug
+#          AppenderRef:
+#            - ref: Console_Appender
+#        Logger:
+#          - name: com.epam.logg
+#            additivity: false
+#            level: debug
+#            AppenderRef:
+#              - ref: Console_Appender
+#                level: info
+#              - ref: File_Appender
+#                level: error
+#              - ref: rollingFile4
+#                level: debug
+
+                                            #  THIRD TASK
+
+
+
+
+
+
+
+                                               #  FOURTH TASK
+#  Configutation:
+#    name: Default
+#    Properties:
+#      Property:
+#        name: log-path
+#        value: "logs"
+#    Appenders:
+#      Console:
+#        name: Console_Appender
+#        target: SYSTEM_OUT
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      File:
+#        name: File_Appender
+#        fileName: ${log-path}/logfile.log
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      File:
+#             name: logFileFilter4
+#             fileName: ${log-path}/logFileFilter4.log
+#             PatternLayout:
+#              pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#             Filters:
+#                 ThresholdFilter:
+#                     level: warn
+#                     onMatch: DENY
+#                     onMismatch: NEUTRAL
+#
+#
+#
+#
+#    Loggers:
+#        Logger:
+#          - name: com.epam.logg
+#            level: all
+#            additivity: false
+#            AppenderRef:
+#              - ref: logFileFilter4
+#                level: all
+
+                                               #  FOURTH TASK
+
+
+
+
+
+                                               #  FIFTH TASK
+
+
+#Configutation:
+#  name: Default
+#  Properties:
+#    Property:
+#      name: log-path
+#      value: "logs"
+#  Appenders:
+#    Console:
+#      name: Console_Appender
+#      target: SYSTEM_OUT
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#    File:
+#      name: File_Appender
+#      fileName: ${log-path}/logfile.log
+#      PatternLayout:
+#        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#
+#    SMTP:
+#     name: MailAppender
+#     subject: "Error Log"
+#     to: "jeckvld@gmail.com"
+#     from: "demkovychdmytro@gmail.com"
+#     smtpHost: "smtp.gmail.com"
+#     smtpPort: 465
+#     smtpProtocol: smtps
+#     smtpUsername: "demkovychdmytro@gmail.com"
+#     smtpPassword: "Dmitrodimkovich9"
+#     bufferSize: 512
+#     HTMLLayout:
+#      charset: "UTF-8"
+#      title: "Logs from Demkovych project Log4jProject"
+#
+#
+#Loggers:
+#        Logger:
+#          - name: com.epam.logg
+#            level: error
+##            additivity: false
+#            AppenderRef:
+#              - ref: MailAppender
+#                level: error
+
+
+
+
+
+
+                                               #  FIFTH TASK
+
+
+#  Configutation:
+#    name: Default
+#    Properties:
+#      Property:
+#        name: log-path
+#        value: "logs"
+#    Appenders:
+#      Console:
+#        name: Console_Appender
+#        target: SYSTEM_OUT
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      File:
+#        name: File_Appender
+#        fileName: ${log-path}/logfile.log
+#        PatternLayout:
+#          pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+#      SMS:
+#        name: SMSsender
+#        PatternLayout:
+#        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss} - %msg %xEx{short}"
+#      Async:
+#       name: AsyncSMS
+#       AppenderRef:
+#        ref: SMSsender
+#
+#      Loggers:
+#       Logger:
+#        - name: com.epam.logg
+#          level: all
+#          AppenderRef:
+#        - ref: AsyncSMS
+#          level: warn
+
+
+
+
+
+
+
+
+
+
+
+Configutation:
+  package: "com.epam.logg"
+  name: Test
+  Properties:
+    Property:
+     name: log-path
+     value: "logs"
+Appenders:
+ Console:
+     name: Console_Appender
+     target: SYSTEM_OUT
+     PatternLayout:
+       pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+     Filters:
+        ThresholdFilter:
+            level: warn
+            onMatch: DENY
+            onMismatch: NEUTRAL
+      File:
+       name: logFileFilter5
+       fileName: ${log-path}/logFileFilter5.log
+       PatternLayout:
+        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+      Filters:
+        ThresholdFilter:
+            level: error
+            onMatch: DENY
+            onMismatch: NEUTRAL
+    Loggers:
+        Root:
+         level: all
+         AppenderRef:
+           - ref: Console_Appender
+              level: info
+              additivity: false
+                - ref: logFileFilter5
+                  level: warn
+
+
+
+
+
+
